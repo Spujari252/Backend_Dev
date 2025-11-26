@@ -10,5 +10,5 @@ def read_root():
     return {"Hello": "World"}
 
 @app.get("/status")
-async def status():
-    return {"status": "ok"}
+async def get_status():
+    return {"message": "ok"}
